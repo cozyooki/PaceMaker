@@ -7,40 +7,25 @@
 
 import React from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
-  View,
 } from 'react-native';
+import Home from './screens/home/home';
 
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView>
-      <StatusBar />
-      <ScrollView>
-        <View></View>
-      </ScrollView>
-    </SafeAreaView>
+    <Home></Home>
   );
 }
 
 const styles = StyleSheet.create({
   sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+    marginTop: 20,
+    flex: 1,
+    backgroundColor: 'red',
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
+  date: {
+    flex: 1,
+    backgroundColor: 'white',
   },
 });
 
