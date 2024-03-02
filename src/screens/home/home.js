@@ -9,6 +9,7 @@ const Home = () => {
     { id: '1', name: 'Item 1', checked: false },
     { id: '2', name: 'Item 2', checked: false },
     { id: '3', name: 'Item 3', checked: false },
+    { id: '4', name: 'Item 4', checked: false },
     // Add more items as needed
   ]);
   const toggleItem = (id) => {
@@ -42,9 +43,9 @@ const Home = () => {
             flexDirection: "row",
             justifyContent: 'center',
             paddingTop: 20}}>
-              <PaceCircle />
-              <PaceCircle />
-              <PaceCircle />
+          <PaceCircle />
+          <PaceCircle />
+          <PaceCircle />
         </ScrollView>
       </View>
       <View style={{flex: 25, marginHorizontal: 15, marginTop: 10, marginBottom: 10, borderWidth: 3}}></View>
@@ -63,7 +64,6 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 40,
     fontWeight: "600",
-    alignContent: 'center',
     marginTop: 5,
     marginLeft: 20,
     marginRight: 20,

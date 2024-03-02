@@ -10,10 +10,12 @@ import {
   StyleSheet,
 } from 'react-native';
 import Home from './screens/home/home';
+import SignUpPage from './screens/Sign/SignUpPage';
+import SignInPage from './screens/Sign/SignInPage';
 
 function App(): React.JSX.Element {
   return (
-    <Home></Home>
+    <SignUpPage></SignUpPage>
   );
 }
 
